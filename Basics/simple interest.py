@@ -7,3 +7,4 @@ print("interest rate is", type(interest_rate))
 print("time_period is", type(time_period))
 simple_interest = principal_amount * time_period*interest_rate/100
 print("simple interest is", float(simple_interest))
+print(f"simple interest is: {simple_interest}")
