@@ -6,19 +6,19 @@
 ## function(5)
 
 
-# def function(count):
-#     count +=1
-#     print("Hai Hari")
-#     if count < 15:
-#         function(count)
-#     else:
-#         return
+def function(count):
+    count +=1
+    print("Hai Hari")
+    if count < 100:     #base case
+        function(count) #recurssive case
+    else:
+        return
+
+function(12)
+
+
+# def function():
+#     print("Hello World")
+#     function()
 #
-# function(12)
-
-
-def function():
-    print("Hello World")
-    function()
-
-function()
+# function()
